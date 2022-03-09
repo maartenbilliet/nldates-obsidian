@@ -124,11 +124,11 @@ export class NLDSettingsTab extends PluginSettingTab {
     });
 
     this.createLanguageSetting(containerEl, "English", "en");
-    this.createLanguageSetting(containerEl, "Japanese", "ja");
-    this.createLanguageSetting(containerEl, "French", "fr");
+    this.createLanguageSetting(containerEl, "Japanese", "ja", "partially supported");
+    this.createLanguageSetting(containerEl, "French", "fr", "partially supported");
     this.createLanguageSetting(containerEl, "German", "de", "partially supported");
     this.createLanguageSetting(containerEl, "Portuguese", "pt", "partially supported");
-    this.createLanguageSetting(containerEl, "Dutch", "nl", "under development");
+    this.createLanguageSetting(containerEl, "Dutch", "nl");
 
     containerEl.createEl("h3", {
       text: "Hotkey formatting settings",
