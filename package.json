@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "roddeh-i18n": "^1.2.0",
-    "chrono-node": "git+https://github.com/liamcain/chrono.git#8460a7d95fbd5efbad073c79b90b2bf5e4dd12d0",
+    "chrono-node": "git+https://github.com/gillesgagniard/chrono.git#c8b91aeff7f7ae9334873313a9a5367ae5720c8b",
     "obsidian-daily-notes-interface": "0.9.4"
   }
 }
